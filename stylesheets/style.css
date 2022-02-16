@@ -1,0 +1,60 @@
+body {
+  background-color: #22262a;
+  color: white;
+  font-family: "Staatliches", cursive;
+}
+img {
+  width: 100%;
+  height: 5rem;
+}
+
+#navbarNav {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  padding-right: 20px;
+}
+
+.nav-item a {
+  font-size: 2em;
+}
+
+#intro {
+  height: 28rem;
+}
+.sub {
+  color: #94a4b4;
+}
+#intro button {
+  border: 1px solid white;
+  width: 8rem;
+  font-size: 1.3em;
+}
+
+#mainFooter {
+  font-family: "Inconsolata", monospace;
+  background-color: #171a1d;
+  color: #94a4b4;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 20px 0 0;
+}
+#mainFooter span a {
+  color: white;
+  text-decoration: none;
+}
+.footer-items {
+  justify-content: space-around;
+}
+
+.nav-item {
+  z-index: 2;
+  margin-top: -20px;
+}
+.nav-link {
+  width: 10rem;
+  float: right;
+  border-radius: 5px;
+}
