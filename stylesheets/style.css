@@ -1,7 +1,6 @@
 body {
   background-color: #22262a;
   color: white;
-  font-family: "Futura", sans-serif;
 }
 img {
   width: 100%;
@@ -21,35 +20,10 @@ img {
   font-size: 2em;
 }
 
-#intro {
-  height: 28rem;
-  font-family: "Staatliches", cursive;
-}
-.sub {
-  color: #94a4b4;
-  font-size: 2vmax;
-}
-#intro-info p,
-.sub {
-  text-align: left;
-  font-family: "Futura", sans-serif;
-  font-size: 1.6vmax;
-}
-
-#links a {
-  font-size: 1.3vmax;
-  margin-left: 10px;
-  background-color: #171a1d;
-  border: 1px solid grey;
-  border-radius: 50%;
-}
-
 #mainFooter {
   font-family: "Inconsolata", monospace;
   background-color: #171a1d;
   color: #94a4b4;
-  /* position: absolute; */
-  /* bottom: 0; */
   width: 100%;
   padding: 20px 0 0;
 }

@@ -1,3 +1,28 @@
+#intro {
+  height: 28rem;
+  font-family: "Staatliches", cursive;
+}
+.sub {
+  color: #94a4b4;
+  font-size: 2vmax;
+}
+#intro-info p,
+.sub {
+  text-align: left;
+  font-family: "Futura", sans-serif;
+  font-size: 1.6vmax;
+}
+
+#links a {
+  font-size: 1.3vmax;
+  margin-left: 10px;
+  background-color: #171a1d;
+  border: 1px solid grey;
+  border-radius: 50%;
+}
+h3 {
+  font-family: "Staatliches", cursive;
+}
 .content-icon i {
   font-size: 2em;
   margin-right: 20px;

@@ -1,3 +1,6 @@
+body {
+  font-family: "Staatliches", sans-serif;
+}
 p {
   font-family: "Inconsolata", monospace;
   color: #94a4b4;
@@ -5,7 +8,7 @@ p {
 span {
   color: #94a4b4;
   letter-spacing: 1px;
-  font-family: "Staatliches", sans-serif;
+
   border: 1px solid #22262a;
   padding: 3px;
 }
