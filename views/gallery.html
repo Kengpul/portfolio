@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>King Paul Pulgares | Gallery</title>
+    <link
+      rel="shortcut icon"
+      href="images/brand_logo.jpg"
+      type="image/x-icon"
+    />
+    <script
+      src="https://kit.fontawesome.com/d81dbc2f3c.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400&family=Staatliches&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../stylesheets/style.css" />
+    <link rel="stylesheet" href="../stylesheets/gallery.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img
+            src="../images/brand_logo.jpg"
+            alt="brand_logo"
+            width="30"
+            height="24"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse text-center" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">CONTACT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="gallery.html"
+                >GALLERY</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div>
+        <h2 class="display-4">Gallery</h2>
+        <p>// Projects</p>
+      </div>
+
+      <div class="row box-container g-4">
+        <div class="col-md-6">
+          <div class="box">
+            <img
+              class="img-fluid img-preview"
+              src="https://raw.githubusercontent.com/Kengpul/tip-calculator/main/design/desktop-preview.jpg"
+              alt="tip-calculator"
+            />
+
+            <button
+              type="button"
+              class="btn"
+              data-bs-toggle="modal"
+              data-bs-target="#tip-calculator"
+            >
+              <i class="fas fa-eye"></i> VIEW PROJECT
+            </button>
+
+            <div
+              class="modal fade"
+              id="tip-calculator"
+              data-bs-backdrop="static"
+              data-bs-keyboard="false"
+              tabindex="-1"
+              aria-labelledby="staticBackdropLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                  <div class="modal-body">
+                    <div class="container-fluid">
+                      <div class="row">
+                        <div class="col-md-7 img-modal">
+                          <img
+                            src="https://raw.githubusercontent.com/Kengpul/tip-calculator/main/design/desktop-preview.jpg"
+                            alt="tip-calculator"
+                          />
+                        </div>
+                        <div class="col-md-5">
+                          <h3>Tip Calculator</h3>
+                          <div class="modal-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>Bootstrap</span>
+                            <span>Javascript</span>
+                          </div>
+
+                          <h5>About</h5>
+
+                          <div class="modal-about">
+                            <p>
+                              Lorem ipsum dolor, sit amet consectetur
+                              adipisicing elit. Ab, iure, blanditiis ipsa nobis
+                              magni atque illum accusantium provident neque a
+                              praesentium assumenda corporis! Recusandae
+                              repellat molestiae qui praesentium distinctio
+                              fuga? Lorem ipsum dolor, sit amet consectetur
+                              adipisicing elit. Ab, iure, blanditiis ipsa nobis
+                              magni atque illum accusantium provident neque a
+                              praesentium assumenda corporis! Recusandae
+                              repellat molestiae qui praesentium distinctio
+                              fuga?
+                            </p>
+                          </div>
+
+                          <a
+                            href="https://kengpul.github.io/tip-calculator/"
+                            target=" _blank"
+                            class="modal-btn"
+                          >
+                            <i class="fas fa-eye"></i> DEMO
+                          </a>
+                          <a
+                            href="https://github.com/Kengpul/tip-calculator"
+                            target=" _blank"
+                            class="modal-btn"
+                          >
+                            <i class="fas fa-code"></i> CODE
+                          </a>
+
+                          <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="box">
+            <img
+              class="img-fluid img-preview"
+              src="https://raw.githubusercontent.com/Kengpul/url-shortening-api/main/design/desktop-preview.jpg"
+              alt="url-shortening-api"
+            />
+
+            <button
+              type="button"
+              class="btn"
+              data-bs-toggle="modal"
+              data-bs-target="#url-shortening-api-modal"
+            >
+              <i class="fas fa-eye"></i> VIEW PROJECT
+            </button>
+
+            <div
+              class="modal fade"
+              id="url-shortening-api-modal"
+              data-bs-backdrop="static"
+              data-bs-keyboard="false"
+              tabindex="-1"
+              aria-labelledby="staticBackdropLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                  <div class="modal-body">
+                    <div class="container-fluid">
+                      <div class="row">
+                        <div class="col-md-7 img-modal">
+                          <img
+                            src="https://raw.githubusercontent.com/Kengpul/url-shortening-api/main/design/desktop-preview.jpg"
+                            alt=""
+                          />
+                        </div>
+                        <div class="col-md-5">
+                          <h3>URL shortening API</h3>
+                          <div class="modal-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>Bootstrap</span>
+                            <span>Javascript</span>
+                            <span>shrtcode API</span>
+                          </div>
+
+                          <h5>About</h5>
+
+                          <div class="modal-about">
+                            <p>
+                              Lorem ipsum dolor, sit amet consectetur
+                              adipisicing elit. Ab, iure, blanditiis ipsa nobis
+                              magni atque illum accusantium provident neque a
+                              praesentium assumenda corporis! Recusandae
+                              repellat molestiae qui praesentium distinctio
+                              fuga? Lorem ipsum dolor, sit amet consectetur
+                              adipisicing elit. Ab, iure, blanditiis ipsa nobis
+                              magni atque illum accusantium provident neque a
+                              praesentium assumenda corporis! Recusandae
+                              repellat molestiae qui praesentium distinctio
+                              fuga?
+                            </p>
+                          </div>
+
+                          <a
+                            href="https://kengpul.github.io/url-shortening-api/"
+                            target=" _blank"
+                            class="modal-btn"
+                          >
+                            <i class="fas fa-eye"></i> DEMO
+                          </a>
+                          <a
+                            href="https://github.com/Kengpul/url-shortening-api"
+                            target=" _blank"
+                            class="modal-btn"
+                          >
+                            <i class="fas fa-code"></i> CODE
+                          </a>
+
+                          <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row box-container g-4 my-1">
+        <div class="col-md-6">
+          <div class="box">
+            <img
+              class="img-fluid img-preview"
+              src="https://raw.githubusercontent.com/Kengpul/social-proof-section/main/design/desktop-preview.jpg"
+              alt="social-proof-section"
+            />
+
+            <button
+              type="button"
+              class="btn"
+              data-bs-toggle="modal"
+              data-bs-target="#social-proof-section-modal"
+            >
+              <i class="fas fa-eye"></i> VIEW PROJECT
+            </button>
+
+            <div
+              class="modal fade"
+              id="social-proof-section-modal"
+              data-bs-backdrop="static"
+              data-bs-keyboard="false"
+              tabindex="-1"
+              aria-labelledby="staticBackdropLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                  <div class="modal-body">
+                    <div class="container-fluid">
+                      <div class="row">
+                        <div class="col-md-7 img-modal">
+                          <img
+                            src="https://raw.githubusercontent.com/Kengpul/social-proof-section/main/design/desktop-preview.jpg"
+                            alt="social-proof-section"
+                          />
+                        </div>
+                        <div class="col-md-5">
+                          <h3>Social proof section</h3>
+                          <div class="modal-tags">
+                            <span>HTML & CSS</span>
+                          </div>
+
+                          <h5>About</h5>
+
+                          <div class="modal-about">
+                            <p>
+                              Lorem ipsum dolor, sit amet consectetur
+                              adipisicing elit. Ab, iure, blanditiis ipsa nobis
+                              magni atque illum accusantium provident neque a
+                              praesentium assumenda corporis! Recusandae
+                              repellat molestiae qui praesentium distinctio
+                              fuga? Lorem ipsum dolor, sit amet consectetur
+                              adipisicing elit. Ab, iure, blanditiis ipsa nobis
+                              magni atque illum accusantium provident neque a
+                              praesentium assumenda corporis! Recusandae
+                              repellat molestiae qui praesentium distinctio
+                              fuga?
+                            </p>
+                          </div>
+
+                          <a
+                            href="https://kengpul.github.io/social-proof-section/"
+                            target=" _blank"
+                            class="modal-btn"
+                          >
+                            <i class="fas fa-eye"></i> DEMO
+                          </a>
+                          <a
+                            href="https://github.com/Kengpul/social-proof-section"
+                            target=" _blank"
+                            class="modal-btn"
+                          >
+                            <i class="fas fa-code"></i> CODE
+                          </a>
+
+                          <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="box">
+            <img
+              class="img-fluid img-preview"
+              src="https://raw.githubusercontent.com/Kengpul/card/main/design/desktop-preview.jpg"
+              alt="card"
+            />
+
+            <button
+              type="button"
+              class="btn"
+              data-bs-toggle="modal"
+              data-bs-target="#card-modal"
+            >
+              <i class="fas fa-eye"></i> VIEW PROJECT
+            </button>
+
+            <div
+              class="modal fade"
+              id="card-modal"
+              data-bs-backdrop="static"
+              data-bs-keyboard="false"
+              tabindex="-1"
+              aria-labelledby="staticBackdropLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                  <div class="modal-body">
+                    <div class="container-fluid">
+                      <div class="row">
+                        <div class="col-md-7 img-modal">
+                          <img
+                            src="https://raw.githubusercontent.com/Kengpul/card/main/design/desktop-preview.jpg"
+                            alt="card"
+                          />
+                        </div>
+                        <div class="col-md-5">
+                          <h3>Stats preview card</h3>
+                          <div class="modal-tags">
+                            <span>HTML & CSS</span>
+                          </div>
+
+                          <h5>About</h5>
+
+                          <div class="modal-about">
+                            <p>
+                              Lorem ipsum dolor, sit amet consectetur
+                              adipisicing elit. Ab, iure, blanditiis ipsa nobis
+                              magni atque illum accusantium provident neque a
+                              praesentium assumenda corporis! Recusandae
+                              repellat molestiae qui praesentium distinctio
+                              fuga? Lorem ipsum dolor, sit amet consectetur
+                              adipisicing elit. Ab, iure, blanditiis ipsa nobis
+                              magni atque illum accusantium provident neque a
+                              praesentium assumenda corporis! Recusandae
+                              repellat molestiae qui praesentium distinctio
+                              fuga?
+                            </p>
+                          </div>
+
+                          <a
+                            href="https://kengpul.github.io/card/"
+                            target=" _blank"
+                            class="modal-btn"
+                          >
+                            <i class="fas fa-eye"></i> DEMO
+                          </a>
+                          <a
+                            href="https://github.com/Kengpul/card"
+                            target=" _blank"
+                            class="modal-btn"
+                          >
+                            <i class="fas fa-code"></i> CODE
+                          </a>
+
+                          <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row box-container g-4 my-1">
+        <div class="col-md-6">
+          <div class="box">
+            <img
+              class="img-fluid img-preview"
+              src="https://raw.githubusercontent.com/Kengpul/3-column-preview-card-component/master/design/desktop-preview.jpg"
+              alt="3-column-preview-card-component"
+            />
+
+            <button
+              type="button"
+              class="btn"
+              data-bs-toggle="modal"
+              data-bs-target="#column-preview-card-modal"
+            >
+              <i class="fas fa-eye"></i> VIEW PROJECT
+            </button>
+
+            <div
+              class="modal fade"
+              id="column-preview-card-modal"
+              data-bs-backdrop="static"
+              data-bs-keyboard="false"
+              tabindex="-1"
+              aria-labelledby="staticBackdropLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                  <div class="modal-body">
+                    <div class="container-fluid">
+                      <div class="row">
+                        <div class="col-md-7 img-modal">
+                          <img
+                            src="https://raw.githubusercontent.com/Kengpul/3-column-preview-card-component/master/design/desktop-preview.jpg"
+                            alt=""
+                          />
+                        </div>
+                        <div class="col-md-5">
+                          <h3>3-column preview card</h3>
+                          <div class="modal-tags">
+                            <span>HTML & CSS</span>
+                          </div>
+
+                          <h5>About</h5>
+
+                          <div class="modal-about">
+                            <p>
+                              Lorem ipsum dolor, sit amet consectetur
+                              adipisicing elit. Ab, iure, blanditiis ipsa nobis
+                              magni atque illum accusantium provident neque a
+                              praesentium assumenda corporis! Recusandae
+                              repellat molestiae qui praesentium distinctio
+                              fuga? Lorem ipsum dolor, sit amet consectetur
+                              adipisicing elit. Ab, iure, blanditiis ipsa nobis
+                              magni atque illum accusantium provident neque a
+                              praesentium assumenda corporis! Recusandae
+                              repellat molestiae qui praesentium distinctio
+                              fuga?
+                            </p>
+                          </div>
+
+                          <a
+                            href="https://kengpul.github.io/3-column-preview-card-component/"
+                            target=" _blank"
+                            class="modal-btn"
+                          >
+                            <i class="fas fa-eye"></i> DEMO
+                          </a>
+                          <a
+                            href="https://github.com/Kengpul/3-column-preview-card-component"
+                            target=" _blank"
+                            class="modal-btn"
+                          >
+                            <i class="fas fa-code"></i> CODE
+                          </a>
+
+                          <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="box">
+            <img
+              class="img-fluid img-preview"
+              src="https://raw.githubusercontent.com/Kengpul/four-card-feature-section/Main/design/desktop-preview.jpg"
+              alt="four-card-feature-section"
+            />
+
+            <button
+              type="button"
+              class="btn"
+              data-bs-toggle="modal"
+              data-bs-target="#four-card-feature-modal"
+            >
+              <i class="fas fa-eye"></i> VIEW PROJECT
+            </button>
+
+            <div
+              class="modal fade"
+              id="four-card-feature-modal"
+              data-bs-backdrop="static"
+              data-bs-keyboard="false"
+              tabindex="-1"
+              aria-labelledby="staticBackdropLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                  <div class="modal-body">
+                    <div class="container-fluid">
+                      <div class="row">
+                        <div class="col-md-7 img-modal">
+                          <img
+                            src="https://raw.githubusercontent.com/Kengpul/four-card-feature-section/Main/design/desktop-preview.jpg"
+                            alt=""
+                          />
+                        </div>
+                        <div class="col-md-5">
+                          <h3>Four card feature</h3>
+                          <div class="modal-tags">
+                            <span>HTML & CSS</span>
+                          </div>
+
+                          <h5>About</h5>
+
+                          <div class="modal-about">
+                            <p>
+                              Lorem ipsum dolor, sit amet consectetur
+                              adipisicing elit. Ab, iure, blanditiis ipsa nobis
+                              magni atque illum accusantium provident neque a
+                              praesentium assumenda corporis! Recusandae
+                              repellat molestiae qui praesentium distinctio
+                              fuga? Lorem ipsum dolor, sit amet consectetur
+                              adipisicing elit. Ab, iure, blanditiis ipsa nobis
+                              magni atque illum accusantium provident neque a
+                              praesentium assumenda corporis! Recusandae
+                              repellat molestiae qui praesentium distinctio
+                              fuga?
+                            </p>
+                          </div>
+
+                          <a
+                            href="https://kengpul.github.io/four-card-feature-section/"
+                            target=" _blank"
+                            class="modal-btn"
+                          >
+                            <i class="fas fa-eye"></i> DEMO
+                          </a>
+                          <a
+                            href="https://github.com/Kengpul/four-card-feature-section"
+                            target=" _blank"
+                            class="modal-btn"
+                          >
+                            <i class="fas fa-code"></i> CODE
+                          </a>
+
+                          <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="mainFooter">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 footer-items d-block d-lg-flex text-center">
+            <p>&copy; 2022 King Paul Pulgares. All Rights Reserved.</p>
+            <p>
+              Email:
+              <span
+                ><a href="mailto:paulpulgares24@gmail.com"
+                  >paulpulgares24@gmail.com</a
+                ></span
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
